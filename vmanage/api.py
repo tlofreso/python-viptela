@@ -37,7 +37,7 @@ VALID_STATUS_CODES = [200, 201, 202, 203, 204, 205, 206, 207, 208, 226]
 
 class vmanage_session(object):
 
-    def __init__(self, host=None, user=None, password=None, port=8443,
+    def __init__(self, host=None, user=None, password=None, port=443,
                 validate_certs=False, disable_warnings=False, timeout=10):
         self.headers = dict()
         self.cookies = None
